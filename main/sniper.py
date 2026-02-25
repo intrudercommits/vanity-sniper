@@ -284,12 +284,12 @@ if __name__ == "__main__":
     mode = cfg.mode
 
     if mode == "lookup":
-        target_map = cfg["vanities"]
+        target_map = cfg.vanities
         sniper = Sniper(target_map)
         sniper.lookup()
     else:
-        ltr_amount = cfg.get("search_length", 3)
-        guild_id = cfg["server_id"]
-        target_map = cfg["vanities"]
+        ltr_amount = cfg.search_length
+        guild_id = cfg.server_id
+        target_map = cfg.vanities
         sniper = Sniper(target_map)
         sniper.search(ltr_amount, guild_id)
