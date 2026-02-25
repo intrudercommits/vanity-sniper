@@ -1,0 +1,5 @@
+git+https://github.com/dolfies/discord.py-self
+aiohttp
+colorama
+pydantic
+playwright
