@@ -1,5 +1,4 @@
-# sensitive config – NEVER commit this
-data/config.json
+
 
 # Python
 __pycache__/

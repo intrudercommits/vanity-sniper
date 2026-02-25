@@ -1,0 +1,8 @@
+{
+  "token": "DISCORD_TOKEN_HERE",
+  "password": "ACCOUNT_PASSWORD_HERE",
+  "mode": "lookup",
+  "vanities": { "YOUR VANITY": "SERVER_ID_HERE" },
+  "search_length": 3,
+  "webhook_url": "YOUR_WEBHOOK_URL_HERE"
+}
